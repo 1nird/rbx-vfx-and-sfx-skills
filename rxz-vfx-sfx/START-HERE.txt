@@ -1,0 +1,28 @@
+rxz · VFX + SFX
+===============
+
+Two Claude Code skills for Roblox, in one folder. Free.
+
+1. Open the skills folder and copy BOTH folders inside it:
+   roblox-vfx     roblox-sfx
+
+   into the folder Claude Code reads:
+     Windows         C:\Users\<you>\.claude\skills
+     macOS / Linux   ~/.claude/skills
+
+   (Create .claude\skills if it is not there yet. In Explorer, type the path
+   into the address bar of any window and press Enter.)
+
+2. Restart Claude Code.
+
+3. Ask for the result, not the script:
+     "sound my game: footsteps, gunshots, a UI click"
+     "harvest the VFX in this place and build me an ice ring"
+
+If Claude says it cannot find the skill, the folder is one level too deep. It
+must be exactly:
+  .claude\skills\roblox-vfx\SKILL.md
+  .claude\skills\roblox-sfx\SKILL.md
+
+Nothing else to do. The VFX skill makes its own library at
+~/Roblox-VFX-Library the first time it needs it.
